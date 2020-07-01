@@ -1,0 +1,4 @@
+/* pages/index6/index6.wxss */
+page {
+  background: #4B0082;
+}

@@ -1,0 +1,57 @@
+/* pages/index5/index5.wxss */
+page {
+  background: #4B0082;
+}
+.aa_vi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 180rpx;
+  margin: 40rpx auto;
+  background: white;
+  border-radius: 5px;
+}
+.aa_img {
+  background: url(https://pics.images.ac.cn/image/5efc2aa5616b5.html) no-repeat;
+  background-position: 50% 50%;
+  background-size:80rpx 80rpx;
+  background-repeat:no-repeat;
+  padding-top: 170rpx;
+  padding-left: 170rpx;
+}
+.bb_vi {
+  display: flex;
+  flex-direction: column;
+}
+.bb_img {
+  background: url(https://pics.images.ac.cn/image/5efc34f1a9830.html) no-repeat;
+  background-position: 90% 50%;
+  background-size:60rpx 60rpx;
+  background-repeat:no-repeat;
+  padding-top: 50%;
+  padding-left: 32%;
+}
+.t_1 {
+  /* font-weight: bold; */
+  font-size: 40rpx;
+}
+.t_2 {
+  color: rgb(161, 161, 161);
+}
+.cc_img {
+  background: url(https://pics.images.ac.cn/image/5efc3869c45b1.html) no-repeat;
+  background-position: 50% 50%;
+  background-size:80rpx 80rpx;
+  background-repeat:no-repeat;
+  padding-top: 170rpx;
+  padding-left: 170rpx;
+}
+.dd_img {
+  background: url(https://pics.images.ac.cn/image/5efc3ac0d9a07.html) no-repeat;
+  background-position: 50% 50%;
+  background-size:80rpx 80rpx;
+  background-repeat:no-repeat;
+  padding-top: 170rpx;
+  padding-left: 170rpx;
+}

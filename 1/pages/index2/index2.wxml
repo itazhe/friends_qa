@@ -1,0 +1,35 @@
+<!--pages/index2/index2.wxml-->
+
+<view class="container">
+  <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+      <block wx:else>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+    <button class="aa_btn" size="mini">钱包</button>
+  </view>
+</view>
+
+<form class="aa_f">
+  <view class="aa_vi">
+    <view class="bb_vi">
+    <text class="t_1">题目类型</text>
+    <text class="t_2">请选择</text>
+    </view>
+    <view class="div_line"></view>
+    <view class="cc_vi">
+    <text class="t_1">题目数量</text>
+    <picker class="t_3" bindchange="bindpickerchange" value="{{ index }}" range="{{ array }}">{{ array[index] }}</picker>
+    </view>
+    <view class="div_line"></view>
+    <view class="bb_vi">
+    <button class="bb_btn">开始出题</button>
+    </view>
+  </view>
+</form>
+
+<view class="dd_vi">
+  <button class="dd_btn" size="mini">出题记录</button>
+  <button class="dd_btn" size="mini">回答记录</button>
+</view>

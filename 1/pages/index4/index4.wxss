@@ -1,0 +1,45 @@
+/* pages/index4/index4.wxss */
+page {
+  background: #4B0082;
+}
+.aa_vi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.bb_vi {
+  margin-left: 45rpx;
+  color: white;
+  font-size: 40rpx;
+}
+.aa_btn {
+  margin-right: 50rpx;
+  border-radius: 5px;
+  background: rgb(235, 79, 79);
+}
+
+
+.demo_vi {
+  width: 90%;
+  margin: 40rpx auto;
+  background: white;
+  border-radius: 5px;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+}
+.demo_vi1 {
+  /* margin: 20rpx auto */
+  /* text-align: center; */
+
+  margin-left: 50rpx;
+}
+.demo_vi2 {
+  width: 80%;
+  height: 60rpx;
+  margin: 20rpx auto;
+  border: 1px solid rgba(22, 7, 7, 0.815);
+  border-radius: 15px;
+  margin-bottom: 30rpx;
+  padding-left: 40rpx;
+}

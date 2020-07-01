@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <button class="aa_btn" style="background: url(https://pics.images.ac.cn/image/5efbde3bcfbca.html) no-repeat;background-position: 40% 40%;background-size:50rpx 50rpx;background-repeat:no-repeat;background-color: orange;padding:35rpx 35rpx;" size="mini"></button>
+  </view>
+</view>
+<view class="aa_vi" style="background: url(https://pics.images.ac.cn/image/5efb01da0fff2.html) no-repeat;background-size:600rpx 130rpx;background-repeat:no-repeat;">
+  <view class="aa_vi2">
+    <text>知心问答</text>
+    <text>谁是最懂我的人</text>
+  </view>
+</view>

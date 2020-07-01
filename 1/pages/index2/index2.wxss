@@ -1,0 +1,93 @@
+/* pages/index2/index2.wxss */
+.container {
+  padding: 0 0;
+  margin-top: 50rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  background: rgb(158, 15, 187);
+  border-radius: 5px;
+  /* margin-left: 50rpx; */
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  margin: auto 0;
+  color: #aaa;
+}
+page {
+  background: #4B0082;
+}
+.aa_btn {
+  border-radius: 5px;
+  margin-left: 320rpx;
+  background: rgb(158, 15, 187);
+  /* border: white; */
+  border: 1px solid #aaa;
+}
+.bb_vi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50rpx;
+}
+.aa_vi {
+  margin-left: 5%;
+  width: 90%;
+  background: white;
+  border-radius: 5px;
+  margin-top: 20rpx;
+}
+text {
+  margin-top: 40rpx;
+}
+.t_1 {
+  margin-left: 40rpx;
+  font-weight: bold;
+  font-size: 50rpx;
+}
+.t_2 {
+  margin-left: 300rpx;
+  color: rgb(201, 201, 201);
+}
+.t_3 {
+  margin-top: 50rpx;
+  margin-left: 300rpx;
+  color: rgb(201, 201, 201);
+}
+.cc_vi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.div_line {
+  /* width: 90%; */
+  margin-top:40rpx;
+  background: rgb(201, 201, 201);
+  height: 2rpx;
+}
+.bb_btn {
+  margin-bottom: 50rpx;
+  background: rgb(235, 79, 79);
+}
+.dd_vi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80rpx
+}
+.dd_btn {
+  /* padding: 0 0; */
+  /* height: 20%; */
+  background: rgb(158, 15, 187);
+}

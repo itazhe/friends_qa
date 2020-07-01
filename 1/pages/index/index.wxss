@@ -1,0 +1,43 @@
+/**index.wxss**/
+.container {
+  padding: 0 0;
+}
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+page {
+  background: #4B0082;
+}
+.aa_btn {
+  border-radius: 50%;
+  margin-left: 400rpx;
+}
+.aa_vi {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 300rpx;
+  padding: 3%;
+  border-radius: 3%;
+  box-sizing: border-box;
+}
+.aa_vi2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 160rpx;
+
+  /* align-items: center; */
+}

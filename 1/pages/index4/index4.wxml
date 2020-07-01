@@ -1,0 +1,23 @@
+<!--pages/index4/index4.wxml-->
+
+<view class="aa_vi">
+  <view class="bb_vi">题目{{ data1 }}/{{ data2 }}</view>
+  <button size="mini" class="aa_btn">换个题</button>
+</view>
+
+<view wx:for="{{ datalist }}"
+  wx:for-item="item"
+  wx:for-index="index"
+  wx:key="key">
+  <view>{{ data3 }}</view>
+</view>
+<view class="demo_vi">
+    <view class="demo_vi1">2.我最喜欢喝那种咖啡</view>
+    <view class="demo_vi2">A.拿铁</view>
+    <view class="demo_vi2">B.美式咖啡</view>
+    <view class="demo_vi2">C.卡布奇诺</view>
+    <view class="demo_vi2">D.焦糖玛奇朵</view>
+</view>
+
+
+<button>下一题</button>

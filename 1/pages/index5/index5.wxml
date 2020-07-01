@@ -1,0 +1,25 @@
+<!--pages/index5/index5.wxml-->
+<view class="aa_vi">
+  <view class="aa_img"></view>
+  <view class="bb_vi">
+    <view class="t_1">发个红包</view>
+    <view class="t_2">答对的人可以领红包</view>
+  </view>
+  <view class="bb_img"></view>
+</view>
+<view class="aa_vi">
+  <view class="cc_img"></view>
+  <view class="bb_vi">
+    <view class="t_1">趣味奖励</view>
+    <view class="t_2">答对了可以找你领奖</view>
+  </view>
+  <view class="bb_img"></view>
+</view>
+<view class="aa_vi">
+  <view class="dd_img"></view>
+  <view class="bb_vi">
+    <view class="t_1">普通问答</view>
+    <view class="t_2">纯问答无奖励考默契</view>
+  </view>
+  <view class="bb_img"></view>
+</view>
