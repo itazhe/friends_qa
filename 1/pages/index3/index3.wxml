@@ -2,8 +2,7 @@
 <view wx:for="{{ datalist }}"
   wx:for-item="item"
   wx:for-index="index"
-  wx:key="num">
-  
-  <view class="t_1">{{ item.infor }}</view>
-</view>
+  wx:key="q_name">
+  <view class="t_1" bindtap="getdata" data-name="{{ item }}">{{ item }}</view>
+</view> 
 <!-- <view class="t_1">你懂我吗</view> -->

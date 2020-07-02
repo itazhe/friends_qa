@@ -2,3 +2,45 @@
 page {
   background: #4B0082;
 }
+.aa_vi {
+  width: 80%;
+  /* height: 300rpx; */
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+  margin-top: 60rpx;
+}
+.aa_img {
+  width: 80%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+.bb_vi {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.cc_vi {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rpx;
+}
+view.cc_vi image {
+  height: 42rpx;
+  width: 42rpx;
+  align-self: center;
+
+}
+view.cc_vi view {
+  margin-left: 10rpx;
+  color: rgb(180, 181, 182);
+}
+
+.aa_btn {
+  margin-top: 40rpx;
+  background: rgb(235, 79, 79);
+  border-radius: 20px;
+  color: white;
+}

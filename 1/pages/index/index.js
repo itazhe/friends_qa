@@ -43,5 +43,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onclick_image: function() {
+    wx.navigateTo({
+      url: '../index2/index2',
+    })
   }
 })

@@ -3,6 +3,7 @@ const app = getApp()
 
 Page({
   data: {
+    q_name: '请选择',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
@@ -48,6 +49,11 @@ Page({
   bindpickerchange(e) {
     this.setData({
       index: e.detail.value
+    })
+  },
+  bb_tap: function() {
+    wx.navigateTo({
+      url: '../index3/index3',
     })
   }
 })

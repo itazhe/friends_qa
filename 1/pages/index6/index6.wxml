@@ -1,2 +1,12 @@
 <!--pages/index6/index6.wxml-->
-<text>pages/index6/index6.wxml</text>
+<view class="aa_vi">
+  <view class="bb_vi">相识满天下，知心能几人</view>
+  <image src="{{ url }}" class="aa_img" id="image" mode="aspectFill" style="height:{{ height }}"></image>
+</view>
+
+<view class="cc_vi">
+<image src="../../icon/点击.png"></image>
+<view>点击上方可以切换分享文案</view>
+</view>
+
+<button class="aa_btn" style="width:80%;height:80rpx;" open-type="share">邀请好友答题</button>

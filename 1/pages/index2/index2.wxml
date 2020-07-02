@@ -13,9 +13,9 @@
 
 <form class="aa_f">
   <view class="aa_vi">
-    <view class="bb_vi">
+    <view class="bb_vi" bindtap="bb_tap">
     <text class="t_1">题目类型</text>
-    <text class="t_2">请选择</text>
+    <text class="t_2">{{ q_name }}</text>
     </view>
     <view class="div_line"></view>
     <view class="cc_vi">

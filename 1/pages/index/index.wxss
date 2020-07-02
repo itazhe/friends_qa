@@ -1,6 +1,7 @@
 /**index.wxss**/
 .container {
   padding: 0 0;
+  margin-top: 20rpx;
 }
 .userinfo {
   display: flex;
@@ -21,23 +22,48 @@
 page {
   background: #4B0082;
 }
-.aa_btn {
-  border-radius: 50%;
-  margin-left: 400rpx;
-}
+
 .aa_vi {
   margin: 0 auto;
   /* border: 1px solid red; */
-  width: 80%;
-  height: 300rpx;
+  width: 90%;
+  height: 150rpx;
   padding: 3%;
-  border-radius: 3%;
+  border-radius: 5px;
   box-sizing: border-box;
+  margin-top: 50rpx;
 }
 .aa_vi2 {
   display: flex;
   flex-direction: column;
-  padding-left: 160rpx;
-
-  /* align-items: center; */
+  padding-left: 180rpx;
+  color: white;
+  /* margin-top: 50rpx; */
+  
+}
+.image {
+  width: 70rpx;
+  height: 70rpx;
+  border: 1px solid #4B0082;
+  background: orange;
+  border-radius: 50%;
+  align-self: center;
+  margin-left: 400rpx;
+}
+.aa_t1 {
+  font-size: 50rpx;
+}
+.aa_t2 {
+  font-size: 30rpx;
+}
+.dd_vi {
+  width: 90%;
+  background: rgb(88, 230, 170);
+  color: white;
+  height: 150rpx;
+  border-radius: 5px;
+  margin: 40rpx auto;
+  font-size: 40rpx;
+  text-align: center;
+  line-height: 150rpx;
 }
